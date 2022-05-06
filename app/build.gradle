@@ -2,12 +2,6 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
 }
-apply plugin: 'buildSrcPlugin'
-jiagu {
-    username '569307092@qq.com'
-    password 'a52952700'
-    jiaguTools '/home/ms/tools/360jiagubao_linux_x64/jiagu/jiagu.jar'
-}
 
 android {
     compileSdkVersion 30
@@ -61,4 +55,3 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
 
-//apply plugin: 'com.meishe.jiagu'
